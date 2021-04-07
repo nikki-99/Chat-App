@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <title>Chat App</title>
+   
+</head>
+<body>
+   
+    
+    <div class="container">
+      
+
+        <!-- <div class="msg center">joined the chat</div> -->
+
+        <!-- <div class="message left">Hey! Are you there?</div> -->
+        <!-- <div class="message right">Hi..Yes</div> -->
+     
+        
+    
+    </div>
+    <div class="send">
+        <form action="" id="send-msg">
+             <input type = "text" name="msgSend" id="msgSend" placeholder="Write Your Message here..">
+             <!-- <i class="fas fa-smile-beam fa-2x"></i> -->
+             <!-- <i style="color: yellow;" class="far fa-grin-wink-fill fa-2x"></i> -->
+             <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+   
+    <script  src="app.js"></script>
+</body>
+</html>
